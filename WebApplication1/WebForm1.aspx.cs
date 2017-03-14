@@ -12,7 +12,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack) DropDownList1.Items.Add(new ListItem("Terceira Opção", "3"));
+            if (!IsPostBack) DropDownList1.Items.Add(new ListItem("Terceira Opção", "3"));
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -81,6 +81,40 @@ namespace WebApplication1
             using (Data cn = new Data())
             {
                 cn.executeSql(SQLquery);
+            }
+        }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            string SQLquery = "select top 50 customerid, firstname, lastname from customers";
+
+            using (Data cn = new Data())
+            {
+                SqlDataReader dr = cn.query(SQLquery);
+
+                while (dr.Read())
+                {
+                    //DropDownList2.Items.Add(new ListItem("Terceira Opção","3"));
+                    DropDownList2.Items.Add(new ListItem(dr["firstname"].ToString() + " " + dr["lastname"].ToString(), dr["customerid"].ToString()));
+
+                }
+            }
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string SQLquery = "select top 50 salesid, customerid, quantity from sales where customerid= " + DropDownList2.SelectedItem.Value;
+
+            using (Data cn = new Data())
+            {
+                SqlDataReader dr = cn.query(SQLquery);
+
+                while (dr.Read())
+                {
+                    //DropDownList2.Items.Add(new ListItem("Terceira Opção","3"));
+                    DropDownList3.Items.Add(new ListItem(dr["salesid"].ToString() + " " + dr["customerid"].ToString(), dr["quantity"].ToString()));
+
+                }
             }
         }
     }

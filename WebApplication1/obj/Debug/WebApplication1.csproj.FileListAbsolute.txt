@@ -3,3 +3,8 @@ c:\users\sqls_vs\documents\visual studio 2012\Projects\WebApplication1\WebApplic
 c:\users\sqls_vs\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 c:\users\sqls_vs\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 c:\users\sqls_vs\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\JBP1996 Atec\Desktop\ExercicioLigacaoBaseDados\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\JBP1996 Atec\Desktop\ExercicioLigacaoBaseDados\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\JBP1996 Atec\Desktop\ExercicioLigacaoBaseDados\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\JBP1996 Atec\Desktop\ExercicioLigacaoBaseDados\WebApplication1\bin\WebApplication1.dll
+C:\Users\JBP1996 Atec\Desktop\ExercicioLigacaoBaseDados\WebApplication1\bin\WebApplication1.pdb

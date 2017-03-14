@@ -57,12 +57,65 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\ie6-style.css" />
+    <Content Include="css\images\bg.gif" />
+    <Content Include="css\images\block-head-view-all.gif" />
+    <Content Include="css\images\block-head.gif" />
+    <Content Include="css\images\button-next.png" />
+    <Content Include="css\images\button-prev.png" />
+    <Content Include="css\images\content-article-sep.gif" />
+    <Content Include="css\images\content-block-bot.gif" />
+    <Content Include="css\images\content-block-top.gif" />
+    <Content Include="css\images\empty-star.gif" />
+    <Content Include="css\images\footer-navs-bot.gif" />
+    <Content Include="css\images\footer-navs-top.gif" />
+    <Content Include="css\images\full-star.gif" />
+    <Content Include="css\images\img1.gif" />
+    <Content Include="css\images\img10.jpg" />
+    <Content Include="css\images\img2.gif" />
+    <Content Include="css\images\img3.gif" />
+    <Content Include="css\images\img4.jpg" />
+    <Content Include="css\images\img5.jpg" />
+    <Content Include="css\images\img6.jpg" />
+    <Content Include="css\images\img7.jpg" />
+    <Content Include="css\images\img8.jpg" />
+    <Content Include="css\images\img9.jpg" />
+    <Content Include="css\images\main-bg.gif" />
+    <Content Include="css\images\main-bot-bg.gif" />
+    <Content Include="css\images\main-nav-bg-left.gif" />
+    <Content Include="css\images\main-nav-bg-right.gif" />
+    <Content Include="css\images\main-nav-bg.gif" />
+    <Content Include="css\images\main-nav-sep.gif" />
+    <Content Include="css\images\nav-active-bg.gif" />
+    <Content Include="css\images\nav-active-first.gif" />
+    <Content Include="css\images\nav-active-sep.gif" />
+    <Content Include="css\images\search-button.gif" />
+    <Content Include="css\images\search-field.gif" />
+    <Content Include="css\images\sidebar-article-sep.gif" />
+    <Content Include="css\images\sidebar-block-bot.gif" />
+    <Content Include="css\images\sidebar-block-top.gif" />
+    <Content Include="css\images\sign-button.gif" />
+    <Content Include="css\images\slider-cnt-bg.gif" />
+    <Content Include="css\images\slider-image-bg.png" />
+    <Content Include="css\images\sort-nav-bg-left.gif" />
+    <Content Include="css\images\sort-nav-bg-right.gif" />
+    <Content Include="css\images\sort-nav-bg.gif" />
+    <Content Include="css\images\sort-nav-sep.gif" />
+    <Content Include="css\images\top-nav-bg.jpg" />
+    <Content Include="css\images\top-nav-home.gif" />
+    <Content Include="css\images\top-nav-last.gif" />
+    <Content Include="css\images\top-nav-sep.gif" />
+    <Content Include="css\style.css" />
+    <Content Include="js\fns.js" />
+    <Content Include="js\jquery-1.3.2.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="WebForm5.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data.cs" />
@@ -73,6 +126,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -95,9 +155,24 @@
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
